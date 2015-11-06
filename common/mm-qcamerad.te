@@ -57,3 +57,6 @@ unix_socket_connect(mm-qcamerad, property, init)
 
 #Allow camera work normally in FFBM
 binder_call(mm-qcamerad, mmi);
+
+# /data/fdAlbum
+allow mm-qcamerad camera_data_file:file create_file_perms;
