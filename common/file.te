@@ -217,3 +217,4 @@ type qdma_app_data_file, file_type, data_file_type;
 
 #tloc daemon
 type tlocd_data_file, file_type, data_file_type;
+type tlocd_fifo, file_type;
